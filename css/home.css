@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
+*{
+  box-sizing: border-box;
+}
+html, body{
+    font: 16px/26px "Raleway", sans-serif !important;
+    font-weight: bold;
+    height: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/*html body{
+    font: 16px/26px 'Berkshire Swash', Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000 !important;
+}*/
+
+/* --Navbar-- */
+.my-brand {
+  font: 400 36px/1.3 'Lobster Two', Helvetica, sans-serif;
+  font-weight: bold;
+ 
+}
+
+.my-toggle-icon{
+	background-image: url(../img/threelines.png) !important;
+	width: 35px !important;
+}
+
+.my-toggler{
+	border-color:#fff !important;
+}
+
+.my-nav a:hover{
+  border-bottom: 3px solid;
+}
+
+/* --Main Content-- */
+
+
+.sports-list{
+  margin-top: 72px;
+  align-content: center;
+}
+
+h2{
+  position: absolute;
+  margin: auto;
+  z-index: ;
+  top: 96px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 900 !important;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-image: url('../img/table-tennis.jpg') 30;
+  margin: 0 24px 0 24px;
+  background-color: rgba(0,0,0, 0.6);
+  color: white !important;
+}
+
+h2:hover ~ .sports{
+  opacity: 1;
+  transform: scale(1.1);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.sports{
+  height: 240px;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.col-sm-4 .sports:hover{
+  opacity: 1;
+  transform: scale(1.1);
+    filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.cricket{
+  position: relative;
+  background-image: url('../img/cricket.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+.football{
+  background-image: url('../img/football.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.tennis{
+  background-image: url('../img/tennis.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.badminton{
+  background-image: url('../img/badminton.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.volleyball{
+  background-image: url('../img/volleyball.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.table-tennis{
+  background-image: url('../img/table-tennis.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.col-sm-4{
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+.footer{
+  margin-top: 48px;
+  text-align: center;
+  min-height: 128px;
+  background:linear-gradient(transparent,#494747,#696666);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+

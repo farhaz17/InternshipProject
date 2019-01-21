@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bookvenue.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Sports Booking</title>
+</head>
+	<body>
+		<!-- Navbar -->
+		<header>
+			<nav class="font-weight-bold navbar navbar-expand-lg navbar-light bg-white fixed-top">
+		  		<a class=" ml-5 navbar-brand my-brand" href="home.html">BookSports.com</a>
+		  		<button class="navbar-toggler my-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon my-toggle-icon"></span>
+		  		</button>
+
+		  		<div class="my-nav navbar-right collapse navbar-collapse" id="navbarSupportedContent">
+			    	<ul class="nav navbar-nav mr-5 ml-auto ">
+				      	<li class="nav-item">
+				        	<a class="nav-link " href="index.html">Login</a>
+				      	</li>
+				      	<li class="nav-item ">
+				        	<a class="nav-link " href="signup.html">Signup</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link " href="venue.html">Venues</a>
+				      	</li>				      	
+			    	</ul>
+			  	</div>
+			</nav>
+		</header>
+
+		<!-- Main Content-->
+		<section>
+
+			<!-- Block-1-->
+			<div class="container main-content">
+				<div class="row">
+					<div class="col-sm-6">
+						<div>
+							<img class="venue-img" src="img/venue.jpg">
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="venue-des">
+							<img src="img/location.svg"><h2>Kanteerava</h2>
+							<p>Sree Kanteerava Stadium, also spelled Sri Kanteerava Stadium, is a multi-purpose stadium in Bengaluru, India. It is used mostly for football matches. It also includes two outdoor rock climbing walls, a running track, a football field and a volleyball court.</p>
+							<p> In August 2018, the International Cricket Council (ICC) officially sanctioned the league.[4]</p>
+							<p><b>Team-A : 8 Players<br>Team-B : 5 Players</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-container" >
+				<form action="payment.html" method="post">
+					<div class="container form-child">
+						<div class="form-row custom-form">
+							<div class="col-sm-4">
+								<div>
+									<label>No of Person</label>
+									<input type="button" class="btn btn-grn" value="+">
+								    <input type="text" class="no-person" value="0">
+								    <input type="button" class="btn btn-red" value="-">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div>
+									<label>Select Team</label>
+										<input type="radio" name="optradio" checked>
+										Team-A
+										<input type="radio" name="optradio">
+										Team-B
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<label>Price</label>$78
+							</div>
+							<div class=" time-input container">
+								<div class="row">
+									<div class="col-sm-6">
+										<label>Select Date</label>
+										<input class="form-control" type="date">
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+										    <label>Select Time</label>
+										    <select class="form-control" name="">
+											    <option value="one">9:00 AM</option>
+											    <option value="two">1:00 PM</option>
+											    <option value="three">5:00 PM</option>
+											    <option value="four">9:00 PM</option>
+											</select>
+									  	</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<input class="btn btn-primary" type="submit" name="submit" value="Book Now">
+					</form>				
+				</div>
+
+
+		</section>
+
+		<footer>
+			<div class="container-fluid footer">
+				<div class="row">
+					<div class="col-sm-4">
+						<div>
+							<p class="my-brand">BookSports.com</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div>
+							<p>Terms and Conditions / Special / Privacy Policy</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div>
+							<p><a href="#" class="fa fa-facebook"></a>
+							   <a href="#" class="fa fa-twitter"></a>
+							   <a href="#" class="fa fa-google"></a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+
+	</body>
+</html>

@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300);
+@import url(http://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
+
+// what is the need to inport the above?
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+    font: 16px/26px "Raleway", sans-serif !important;
+    font-weight: bold;
+    height: 100%;
+  overflow-x: hidden;
+   // don't use this
+  
+    max-width: 100%;
+}
+
+/*html body{
+    font: 16px/26px 'Berkshire Swash', Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000 !important;
+}*/
+
+/* --Navbar-- */
+.my-brand {
+  font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+  font-weight: bold;
+ 
+}
+
+.my-toggle-icon{
+	background-image: url(../img/threelines.png) !important; // why important?
+	width: 2.5em !important; // why important?
+}
+
+.my-toggler{
+	border-color:#fff !important;  // why important?
+}
+
+
+/* --Main Content-- */
+
+
+.sports-list{
+  margin-top: 72px;
+  align-content: center;
+}
+
+
+.cricket{
+  position: relative;
+  background-image: url('../img/cricket.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  opacity: 0.3;
+}
+
+h2{
+  position: absolute;
+  top:96px;
+  left:136px;
+  z-index: -1;
+}
+
+.football{
+  background-image: url('../img/football.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.tennis{
+  background-image: url('../img/tennis.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  opacity: 0.3;
+}
+
+.badminton{
+  background-image: url('../img/badminton.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  opacity: 0.3;
+}
+
+.volleyball{
+  background-image: url('../img/volleyball.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  opacity: 0.3;
+}
+
+.table-tennis{
+  background-image: url('../img/table-tennis.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  opacity: 0.4;
+}
+
+.col-sm-4{
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+.col-sm-4 div:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}

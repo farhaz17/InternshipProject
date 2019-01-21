@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/addvenue.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<title>Sports Booking</title>
+</head>
+	<body>
+
+		<header>
+			<nav class="font-weight-bold navbar navbar-expand-lg navbar-light bg-white fixed-top">
+		  		<a class=" ml-5 navbar-brand my-brand" href="#">BookSports.com</a>
+		  		<button class="navbar-toggler my-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon my-toggle-icon"></span>
+		  		</button>
+
+		  		<div class="my-nav navbar-right collapse navbar-collapse" id="navbarSupportedContent">
+			    	<ul class="nav navbar-nav mr-5 ml-auto ">
+				      	<li class="nav-item">
+				        	<a class="nav-link " href="#">Home</a>
+				      	</li>
+				      	<li class="nav-item">
+				        	<a class="nav-link " href="#">Venues</a>
+				      	</li>
+				      	<li class="nav-item ">
+				        	<a class="nav-link " href="#">Login</a>
+				      	</li>
+			    	</ul>
+			  	</div>
+			</nav>
+		</header>
+
+		<!-- Main Content-->
+			<div class="cover">
+				<div>
+					<div class="container form-container">
+						<form enctype="multipart/form-data" method="post" action="">
+							<div class="form-group">
+							    <label >Venue Name</label>
+							    <input type="text" class="form-control" placeholder="Enter Venue Name">
+							</div>
+							<div class="form-group">
+							    <label >Description</label>
+							    <input type="text" class="form-control" placeholder="Enter Venue Description">
+							</div>
+							<div class="form-group">
+							    <label >Price</label>
+							    <input type="text" class="form-control" placeholder="Enter Price">
+							</div>
+							<div class="form-group">
+							    <label >Maximum Players</label>
+							    <input type="number" class="form-control" placeholder="Enter Price">
+							</div>
+							<div class="form-group">
+							    <label for="exampleInputEmail1">Picture</label>
+							    <input type="file" name="picture" class="form-control" />
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+				
+
+		
+		
+
+	</body>
